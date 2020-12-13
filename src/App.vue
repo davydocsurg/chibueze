@@ -1,32 +1,46 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <body class="">
+    <div id="app" class="container-fluid">
+      <!-- <Header class=""></Header> -->
+      <Home></Home>
+      <hr class="bg-success" />
+      <About></About>
+      <hr class="bg-success" />
+      <Proficiency></Proficiency>
+      <hr class="bg-success" />
+      <Skills></Skills>
+      <hr class="bg-success" />
+      <Projects></Projects>
+      <hr class="bg-success" />
+      <Socials></Socials>
+      <hr class="bg-success" />
+      <Footer></Footer>
     </div>
-    <router-view/>
-  </div>
+  </body>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Header from "@/components/chibueze/Header";
+import Home from "@/components/chibueze/Home";
+import About from "@/components/chibueze/About";
+import Proficiency from "@/components/chibueze/Proficiency";
+import Skills from "@/components/chibueze/Skills";
+import Projects from "@/components/chibueze/Projects";
+import Socials from "@/components/chibueze/Socials";
+import Footer from "@/components/chibueze/Footer";
 
-#nav {
-  padding: 30px;
+export default {
+  components: {
+    Header,
+    Home,
+    About,
+    Proficiency,
+    Skills,
+    Projects,
+    Socials,
+    Footer
+  },
+};
+</script>
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+<style lang="css"></style>
