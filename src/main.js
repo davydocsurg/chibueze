@@ -3,7 +3,7 @@ import App from './App.vue'
 // import router from './router'
 import store from './store'
 
-import '../public/assets/css/main.css'
+import '../src/assets/css/main.css'
 import '../public/assets/fontawesome-free/css/all.css'
 import Scroll from './animations/scroll'
 // import nav from './nav'

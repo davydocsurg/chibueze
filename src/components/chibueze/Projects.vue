@@ -5,19 +5,19 @@
       <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
       <div class="projects">
         <a href="http://frozen-temple-94354.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="p-2">
-          <img src="/assets/img/project1.png" alt="" srcset="" width="300" v-scrollAnime/>
+          <img src="../../assets/img/project1.png" alt="" srcset="" width="300" v-scrollAnime/>
         </a>
 
         <a href="http://vv" target="_blank" rel="noopener noreferrer"  class="p-2">
-          <img src="/assets/img/project2.png" alt="" srcset="" width="300" v-scrollAnime/>
+          <img src="../../assets/img/project2.png" alt="" srcset="" width="300" v-scrollAnime/>
         </a>
 
         <a href="http://laravel-vue-starter.herokuapp.com/users" target="_blank" rel="noopener noreferrer" class="p-2">
-          <img src="/assets/img/project3.png" alt="" srcset="" width="300" v-scrollAnime/>
+          <img src="../../assets/img/project3.png" alt="" srcset="" width="300" v-scrollAnime/>
         </a>
 
         <a href="http://ticketliteapp.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="p-2">
-          <img src="/assets/img/project4.png" alt="" srcset="" width="300" v-scrollAnime/>
+          <img src="../../assets/img/project4.png" alt="" srcset="" width="300" v-scrollAnime/>
         </a>
 
         <!-- <a href="http://vv" target="_blank" rel="noopener noreferrer" class="p-2">

@@ -2,7 +2,7 @@
   <div class="">
     <img
       class="rounded pics"
-      src="/assets/img/prof.jpg"
+      src="../../assets/img/prof.jpg"
       alt="David Chibueze"
       width="220"
       v-scrollAnime
