@@ -7,6 +7,7 @@
       width="220"
       v-scrollAnime
     />
+      <!-- src="public/assets/img/prof.jpg" -->
   </div>
 </template>
 
