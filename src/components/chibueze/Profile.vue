@@ -2,11 +2,12 @@
   <div class="">
     <img
       class="rounded pics"
-      src=".https://davydocsurg.github.io/chibueze/assets/img/prof.jpg"
+      src="../../assets/img/prof.jpg"
       alt="David Chibueze"
       width="220"
       v-scrollAnime
     />
+    <!-- https://davydocsurg.github.io/chibueze/ -->
       <!-- src="public/assets/img/prof.jpg" -->
   </div>
 </template>

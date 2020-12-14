@@ -8,7 +8,7 @@
           <img src="../../assets/img/project1.png" alt="" srcset="" width="300" v-scrollAnime/>
         </a>
 
-        <a href="http://vv" target="_blank" rel="noopener noreferrer"  class="p-2">
+        <a href="https://davydocsurg.github.io/chibueze/" target="_blank" rel="noopener noreferrer"  class="p-2">
           <img src="../../assets/img/project2.png" alt="" srcset="" width="300" v-scrollAnime/>
         </a>
 
