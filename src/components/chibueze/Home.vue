@@ -29,7 +29,7 @@
                 <div class="mr-4">
                   <i class="fas fa-phone"></i><span class="ml-1">Phone</span>
                   <br />
-                  <b>0 901 358 206 3</b>
+                  <b>+234 901 358 2063</b>
                 </div>
                 <hr class="only-sm">
                 <div class="">
