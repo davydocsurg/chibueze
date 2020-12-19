@@ -12,7 +12,7 @@
       <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 mt-4">
         <div class="" v-scrollAnime>
           <h5 class="text-success">Front-end Design</h5>
-          <p>
+          <p class="lh-lg">
             I design responsive and stunning webpages/SPAs using various UI
             frameworks and libraries such as Bootstrap, Tailwind, and
             Vue.js/Vuetify.
@@ -20,14 +20,14 @@
         </div>
         <div class="" v-scrollAnime>
           <h5 class="text-success">Back-end Development</h5>
-          <p>
+          <p class="lh-lg">
             I develop highly extensible web applications with fast, solid, and
             secure APIs. My stack includes PHP and Laravel.
           </p>
         </div>
         <div class="" v-scrollAnime>
           <h5 class="text-success">Database Development</h5>
-          <p>
+          <p  class="lh-lg font-monospace">
             I design uniformed relational data models aptly accomplished with
             MySQL/SQL.
           </p>

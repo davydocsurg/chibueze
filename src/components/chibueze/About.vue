@@ -10,7 +10,7 @@
       <br />
       <br />
       <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-        <p class="" v-scrollAnime>
+        <p class="lh-lg" v-scrollAnime>
           I'm a back/front-end web developer, database developer and an
           enthusiastic entrepreneur with years of experience in the tech
           industry. I'm based in Nigeria and mostly self-tutored for most of my
