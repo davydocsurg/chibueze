@@ -28,6 +28,11 @@
   font-size: 4.5rem;
 }
 
+p {
+  line-height: 30px !important;
+  font-size: 19px !important;
+}
+
 @media screen and (max-width: 992px) {
   .jst-abt {
     text-align: center !important;

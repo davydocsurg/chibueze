@@ -48,6 +48,11 @@
   display: none !important;
 }
 
+p {
+  line-height: 30px !important;
+  font-size: 19px !important;
+}
+
 @media screen and (max-width: 992px) {
   .jst-prof {
     text-align: center !important;
