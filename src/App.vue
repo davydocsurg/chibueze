@@ -1,6 +1,6 @@
 <template>
   <body class="">
-    <div id="app" class="container-fluid">
+    <div id="app" class="container">
       <!-- <Header class=""></Header> -->
       <Home></Home>
       <hr class="bg-success" />

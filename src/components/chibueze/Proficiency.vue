@@ -2,7 +2,7 @@
   <div id="proficiency" class="container jst-prof p-4 mt-4">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <h1 class="text-bold" v-scrollAnime>
-        Profi<span class="text-success">ciency</span>
+        Profi<br class="break" /><span class="text-success">ciency</span>
       </h1>
       <div class="card bg-dark col-md-12 col-lg-4 shadow-sm" v-scrollAnime>
         <span class="p-1">My areas of proficiency</span>
@@ -44,9 +44,25 @@
   font-size: 3.5rem !important;
 }
 
+.break {
+  display: none !important;
+}
+
 @media screen and (max-width: 992px) {
   .jst-prof {
     text-align: center !important;
+  }
+
+  .text-bold {
+    font-weight: 400;
+    font-size: 2.5rem !important;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .break {
+    display: block !important;
   }
 }
 

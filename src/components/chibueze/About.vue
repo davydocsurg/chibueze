@@ -32,6 +32,11 @@
   .jst-abt {
     text-align: center !important;
   }
+
+  .text-bold {
+  font-weight: 300;
+  font-size: 3.5rem;
+}
 }
 
 /* animes */

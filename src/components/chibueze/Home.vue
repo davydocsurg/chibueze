@@ -6,12 +6,16 @@
         <Profile></Profile>
         <br />
       </div>
-      <div class="">
+      <div class="col-md-6 col-sm-12 col-xs-12">
         <h1 class="">
-          <p class="smaller"  v-scrollAnime>David</p>
+          <p class="smaller" v-scrollAnime>David</p>
           <span class="large text-success"><p v-scrollAnime>Chibueze</p></span>
         </h1>
-        <b class="" ><p v-scrollAnime>Software developer <i class="fas fa-laptop-code"></i></p> </b>
+        <b class=""
+          ><p v-scrollAnime>
+            Software developer <i class="fas fa-laptop-code"></i>
+          </p>
+        </b>
 
         <div class="mt-4">
           <div class="card bg-dark p-3" v-scrollAnime>
@@ -25,13 +29,13 @@
                   <br />
                   <b>Abia, Nigeria</b>
                 </div>
-                <hr class="only-sm">
+                <hr class="only-sm" />
                 <div class="mr-4">
                   <i class="fas fa-phone"></i><span class="ml-1">Phone</span>
                   <br />
                   <b>+234 901 358 2063</b>
                 </div>
-                <hr class="only-sm">
+                <hr class="only-sm" />
                 <div class="">
                   <i class="far fa-envelope"></i><span class="ml-1">Mail</span>
                   <br />
@@ -49,13 +53,13 @@
 </template>
 
 <script>
-import Profile from './Profile'
+import Profile from "./Profile";
 
 export default {
-  components:{
-    Profile
-  }
-}
+  components: {
+    Profile,
+  },
+};
 </script>
 
 <style type="text/css" scoped>
@@ -103,6 +107,10 @@ export default {
   .jst-space {
     text-align: center !important;
     /* display: block; */
+  }
+
+  .large {
+    font-size: 3rem !important;
   }
   /* .pics {
     text-align: center !important;

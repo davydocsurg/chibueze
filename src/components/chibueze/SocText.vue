@@ -8,6 +8,22 @@
 </template>
 
 <style lang="css" scoped>
+@media screen and (max-width: 992px) {
+  .jst-prof {
+    text-align: center !important;
+  }
+
+  .text-bold {
+    font-weight: 400;
+    font-size: 3.5rem !important;
+    text-align: center !important;
+  }
+
+  .break {
+    display: block !important;
+  }
+}
+
 /* animes */
 .before-enter {
   opacity: 0;

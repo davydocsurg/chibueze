@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="text-bold" v-scrollAnime>Port<span class="text-success">folio</span></h1>
+    <h1 class="text-bold" v-scrollAnime>
+      Port<span class="text-success">folio</span>
+    </h1>
     <div class="card bg-dark col-md-12 col-lg-8 shadow-sm" v-scrollAnime>
       <span class="p-1">Some projects I've built so far</span>
     </div>
@@ -8,7 +10,19 @@
 </template>
 
 <style lang="css" scoped>
-      /* animes */
+@media screen and (max-width: 992px) {
+  .jst-prof {
+    text-align: center !important;
+  }
+
+  .text-bold {
+    font-weight: 400;
+    font-size: 2.5rem !important;
+    text-align: center !important;
+  }
+}
+
+/* animes */
 .before-enter {
   opacity: 0;
   transform: translateX(170px);

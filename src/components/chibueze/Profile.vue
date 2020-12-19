@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <img
-      class="rounded pics"
+      class="rounded-circle pics"
       src="../../assets/img/prof.jpg"
       alt="David Chibueze"
       width="220"
@@ -30,4 +30,5 @@
   opacity: 1;
   transform: translateX(0px);
 }
+
 </style>

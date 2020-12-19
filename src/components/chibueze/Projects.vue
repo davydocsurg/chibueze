@@ -3,7 +3,7 @@
     <ProText></ProText>
     <div class="mt-4">
       <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
-      <div class="projects">
+      <div class="container projects">
         <a href="http://frozen-temple-94354.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="p-2">
           <img src="../../assets/img/project1.png" alt="" srcset="" width="300" v-scrollAnime/>
         </a>
@@ -53,7 +53,6 @@ export default {
 }
 .projects a {
   font-size: 2rem;
-  border: 3px #fff solid;
   padding: 1.5rem 2.5rem;
   margin-bottom: 3rem;
   transition: all 0.5s ease-out;
@@ -78,6 +77,10 @@ export default {
 
 @media screen and (max-width: 992px) {
   .jst-pro {
+    text-align: center !important;
+  }
+
+  .projects{
     text-align: center !important;
   }
 }

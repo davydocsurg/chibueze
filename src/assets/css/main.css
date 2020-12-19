@@ -26,19 +26,19 @@ body {
 /* about */
 #about {
   min-height: 25rem;
-  max-height: 50rem;
+  max-height: 100rem;
 }
 
-/* about */
+/* proficiency */
 #proficiency {
   min-height: 25rem;
-  max-height: 50rem;
+  max-height: 100rem;
 }
 
 /* skills */
 #skills {
   min-height: 25rem;
-  max-height: 50rem;
+  max-height: 100rem;
 }
 
 /* projects */
