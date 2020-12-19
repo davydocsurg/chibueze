@@ -29,8 +29,8 @@
 }
 
 p {
-  line-height: 50px !important;
-  font-size: 25px !important;
+  line-height: 30px !important;
+  font-size: 15px !important;
 }
 
 @media screen and (max-width: 992px) {
