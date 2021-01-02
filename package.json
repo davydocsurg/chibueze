@@ -12,6 +12,7 @@
     "bootstrap": "^4.5.2",
     "core-js": "^3.6.5",
     "moment": "^2.29.0",
+    "tailwindcss": "^2.0.2",
     "vform": "^1.0.1",
     "vue": "^2.6.11",
     "vue-progressbar": "^0.7.5",
