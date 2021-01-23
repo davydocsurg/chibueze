@@ -14,7 +14,7 @@
 
 <style lang="css" scoped>
 .pics {
-  border: #a4a5a6 6px solid;
+  border: #fff 6px solid;
   /* border: #28a745 6px solid; */
   /* background: rgb(168, 167, 167); */
 }

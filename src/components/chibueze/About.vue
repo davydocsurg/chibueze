@@ -4,7 +4,7 @@
       <h1 class="text-bold" v-scrollAnime>
         About <span class="text-success">Me</span>
       </h1>
-      <div class="card bg-dark col-md-12 col-lg-4 shadow-sm" v-scrollAnime>
+      <div class="card bg-card col-md-12 col-lg-4 shadow-sm" v-scrollAnime>
         <span class="p-1">A few things about me...</span>
       </div>
       <br />

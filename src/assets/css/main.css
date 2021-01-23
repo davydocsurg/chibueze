@@ -12,6 +12,10 @@ body {
   line-height: 1rem;
 }
 
+.bg-card {
+  background: #0d1117 !important;
+}
+
 #home {
   /* background: url("../img/prof.jpg") !important; */
   /* background: rgba(68, 68, 68, 0.9) !important; */

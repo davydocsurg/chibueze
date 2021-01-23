@@ -18,7 +18,7 @@
         </b>
 
         <div class="mt-4">
-          <div class="card bg-dark p-3" v-scrollAnime>
+          <div class="card bg-card shadow-sm p-3" v-scrollAnime>
             <!-- <hr class="bg-white" /> -->
 
             <div class="row jst-space">

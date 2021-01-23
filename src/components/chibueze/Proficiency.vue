@@ -4,7 +4,7 @@
       <h1 class="text-bold" v-scrollAnime>
         Profi<br class="break" /><span class="text-success">ciency</span>
       </h1>
-      <div class="card bg-dark col-md-12 col-lg-4 shadow-sm" v-scrollAnime>
+      <div class="card bg-card col-md-12 col-lg-4 shadow-sm" v-scrollAnime>
         <span class="p-1">My areas of proficiency</span>
       </div>
 
