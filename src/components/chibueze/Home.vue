@@ -13,7 +13,7 @@
         </h1>
         <b class=""
           ><p v-scrollAnime>
-            Software developer <i class="fas fa-laptop-code"></i>
+            Software Developer <i class="fas fa-laptop-code"></i>
           </p>
         </b>
 
