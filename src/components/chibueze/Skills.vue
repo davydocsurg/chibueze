@@ -20,7 +20,7 @@
             v-for="progress in progress_data"
             :key="progress.id"
           >
-            <b>{{ progress.name }}</b>
+            <b class="text">{{ progress.name }}</b>
             <div class="progress mb-3">
               <div
                 class="progress-bar bg-success"

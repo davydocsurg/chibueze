@@ -4,8 +4,8 @@
 }
 
 body {
-  background: #444 !important;
-  color: #fff !important;
+  background: #2d2e2e !important;
+  color: #a4a5a6 !important;
   height: 100%;
   margin: 0;
   font-family: sans-serif;
@@ -14,7 +14,7 @@ body {
 
 #home {
   /* background: url("../img/prof.jpg") !important; */
-  background: rgba(68, 68, 68, 0.9) !important;
+  /* background: rgba(68, 68, 68, 0.9) !important; */
   background-attachment: fixed;
   min-height: 30rem !important;
   max-height: 50rem !important;

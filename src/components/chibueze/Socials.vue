@@ -58,7 +58,7 @@ export default {
 }
 .boxes div {
   font-size: 2rem;
-  border: 3px #fff solid;
+  border: 3px #a4a5a6 solid;
   padding: 1.5rem 2.5rem;
   margin-bottom: 3rem;
   transition: all 0.5s ease-out;
@@ -74,6 +74,10 @@ export default {
 
 a {
   text-decoration: none !important;
+  color: #a4a5a6 !important;
+}
+
+a:hover {
   color: #fff !important;
 }
 

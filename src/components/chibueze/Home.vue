@@ -8,7 +8,7 @@
       </div>
       <div class="col-md-6 col-sm-12 col-xs-12">
         <h1 class="">
-          <p class="smaller" v-scrollAnime>David</p>
+          <p class="smaller text-muted" v-scrollAnime>David</p>
           <span class="large text-success"><p v-scrollAnime>Chibueze</p></span>
         </h1>
         <b class=""
@@ -79,7 +79,7 @@ export default {
 }
 
 .mail-to {
-  color: white;
+  color: #a4a5a6;
 }
 
 .mail-to:hover {
