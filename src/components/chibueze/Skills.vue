@@ -59,7 +59,7 @@ components:{
         { id: 5, name: "JavaScript", width: "91", val: "91", level: 91 },
         { id: 6, name: "PHP", width: "82", val: "82", level: 82 },
         { id: 7, name: "Vue.Js/Vuetify", width: "89", val: "89", level: 89 },
-        { id: 8, name: "Laravel 7", width: "74", val: "74", level: 74 },
+        { id: 8, name: "Laravel 7", width: "77", val: "77", level: 77 },
         { id: 9, name: "SQL/MYSQL", width: "70", val: "70", level: 70 },
       ],
     };
