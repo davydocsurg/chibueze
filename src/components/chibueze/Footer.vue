@@ -1,8 +1,10 @@
 <template>
-  <div class="container" id="footer">
+  <div class="container footcont" id="footer">
     <footer class="row">
       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" v-scrollAnime>
         ©️ 2021 David Chibueze
+        <br>
+        <br>
       </div>
       <div class="jst" v-scrollAnime>
         <a
@@ -68,6 +70,13 @@
 
 .foot:hover {
   color: #28a745;
+}
+
+@media screen and (max-width: 992px) {
+  .footcont {
+    /* text-align: center !important;
+    justify-items: center !important; */
+  }
 }
 
 </style>

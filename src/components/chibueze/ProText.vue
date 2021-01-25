@@ -10,6 +10,11 @@
 </template>
 
 <style lang="css" scoped>
+.text-bold {
+  font-weight: 300;
+  font-size: 3.5rem !important;
+}
+
 @media screen and (max-width: 992px) {
   .jst-prof {
     text-align: center !important;

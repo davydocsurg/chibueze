@@ -4,12 +4,19 @@
       My <span class="text-success">Skills</span>
     </h1>
     <div class="card bg-card col-md-12 col-lg-8 shadow-sm" v-scrollAnime>
-      <span class="p-1"> A representation of my progress with each skill so far. </span>
+      <span class="p-1">
+        A representation of my progress with each skill so far.
+      </span>
     </div>
   </div>
 </template>
 
 <style lang="css" scoped>
+.text-bold {
+  font-weight: 300;
+  font-size: 3.5rem !important;
+}
+
 @media screen and (max-width: 992px) {
   .jst-prof {
     text-align: center !important;

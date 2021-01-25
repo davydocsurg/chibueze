@@ -14,8 +14,8 @@
           <h5 class="text-success">Front-end Design</h5>
           <p class="lh-lg">
             I design responsive and stunning webpages/SPAs using various UI
-            frameworks and libraries such as Bootstrap, Tailwind, and
-            Vue.js/Vuetify.
+            frameworks and libraries such as Bootstrap, Tailwind CSS, and
+            Vue.js/VuetifyJS.
           </p>
         </div>
         <div class="" v-scrollAnime>

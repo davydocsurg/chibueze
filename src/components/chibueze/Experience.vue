@@ -15,12 +15,12 @@
           <div class="col-lg-4">
             <small class="">April 2020 - present</small>
             <h5 href="" class="text-success">Freelance Software Developer</h5>
-            <small class="text-muted">Remote</small>
-            <br>
-            <br>
+            <small class="text-muted">Remote - Freelancer</small>
+            <br />
+            <br />
           </div>
           <div class="col-lg-8">
-            <p>
+            <p class="">
               I currently work as a Freelance Software Developer. I work with
               teams of high skilled developers. I develop backend and database
               infrastructures and devise front-end components on both new and
@@ -34,13 +34,11 @@
           <div class="col-lg-4">
             <small class="">February, 2020 - April 2020</small>
             <h5 href="" class="text-success">Innovation Growth Hub</h5>
-            <small class="text-success"
-              >Backend Developer - Intern</small
-            >
+            <small class="text-success">Backend Developer - Intern</small>
             <br />
             <small class="text-muted">Abia, Nigeria.</small>
-          <br />
-          <br />
+            <br />
+            <br />
           </div>
 
           <div class="col-lg-8">
@@ -57,6 +55,11 @@
 </template>
 
 <style lang="css" scoped>
+.text-bold {
+  font-weight: 300;
+  font-size: 3.5rem !important;
+}
+
 @media screen and (max-width: 992px) {
   .jst-prof {
     text-align: center !important;
@@ -68,9 +71,9 @@
     text-align: center !important;
   }
 
-  /* .timeline {
-    text-align: left !important;
-  } */
+  .timeline {
+    text-align: center !important;
+  }
 }
 
 /* animes */

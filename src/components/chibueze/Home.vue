@@ -3,8 +3,8 @@
     <div class="row jst-space">
       <!-- <div class=" "> -->
       <div class="col-md-6 col-sm-12 col-xs-12 col-lg-6 text-center pics container">
-        <!-- <Profile></Profile> -->
-        <div class="profile-pics" v-scrollAnime></div>
+        <Profile></Profile>
+        <!-- <div class="profile-pics" v-scrollAnime></div> -->
         <br />
       </div>
       <div class="col-md-6 col-sm-12 col-xs-12">
@@ -97,7 +97,7 @@ export default {
 }
 
 .home-mt {
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .profile-pics {
