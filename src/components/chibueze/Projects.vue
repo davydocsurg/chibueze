@@ -83,15 +83,14 @@
       </div>
     </div> -->
 
+
     <main id="">
       <div class="projects">
-        <div class="item" v-for="project in projects" :key="project.id">
+        <!-- <div class="item" v-for="project in projects" :key="project.id">
           <a :href="project.demo" target="_blank" rel="noopener noreferrer">
             <img :src="project.img" :alt="project.name" v-scrollAnime />
           </a>
           <p href="" class="btn-light" v-scrollAnime>
-            <!-- CMS is a blog site with a Content Management System, made with
-            Laravel and JavaScript. -->
             {{ project.desc }}
           </p>
           <a
@@ -112,8 +111,45 @@
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
+        </div> -->
+
+        <div class="item">
+          <a
+            href="http://frozen-temple-94354.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="../../assets/img/project1.png"
+              alt="CMS"
+              v-scrollAnime
+            />
+          </a>
+          <p class="btn-light" v-scrollAnime>
+            CMS is a blog site with a Content Management System, made with Laravel and JavaScript. It features MailChimp, Disqus etc.
+          </p>
+          <a
+            href="http://frozen-temple-94354.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-dark bg-success text-decoration-none"
+            v-scrollAnime
+          >
+            <i class="fas fa-eye"></i> Demo
+          </a>
+
+          <a
+            href="https://github.com/davydocsurg/CMS"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-dark text-decoration-none"
+            v-scrollAnime
+          >
+            <i class="fab fa-github"></i> Github Repo
+          </a>
         </div>
-        <!-- <div class="item">
+
+        <div class="item">
           <a
             href="https://davydocsurg.github.io/chibueze/"
             target="_blank"
@@ -125,29 +161,31 @@
               v-scrollAnime
             />
           </a>
-          <p class="btn-light">
-            Portfolio Website of David Chibueze.
+          <p class="btn-light" v-scrollAnime>
+            Portfolio Website of David Chibueze. Made with VueJs
           </p>
           <a
             href="https://davydocsurg.github.io/chibueze/"
             target="_blank"
             rel="noopener noreferrer"
             class="btn-dark bg-success text-decoration-none"
+            v-scrollAnime
           >
             <i class="fas fa-eye"></i> Demo
           </a>
 
           <a
-            href="https://davydocsurg.github.io/chibueze/"
+            href="https://github.com/davydocsurg/chibueze"
             target="_blank"
             rel="noopener noreferrer"
             class="btn-dark text-decoration-none"
+            v-scrollAnime
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div> -->
+        </div>
 
-        <!-- <div class="item">
+        <div class="item">
           <a
             href="http://laravel-vue-starter.herokuapp.com/users"
             target="_blank"
@@ -159,7 +197,7 @@
               v-scrollAnime
             />
           </a>
-          <p class="btn-light">
+          <p class="btn-light" v-scrollAnime>
             Starter is a Content Management System made with Laravel and VueJs.
             It features API consumption, AJAX Requests, Laravel APIs, etc.
           </p>
@@ -168,20 +206,23 @@
             target="_blank"
             rel="noopener noreferrer"
             class="btn-dark text-decoration-none bg-success"
+            v-scrollAnime
           >
             <i class="fas fa-eye"></i> Demo
           </a>
 
           <a
-            href="http://laravel-vue-starter.herokuapp.com/users"
+            href="https://github.com/davydocsurg/laravel-multi-purpose"
             target="_blank"
             rel="noopener noreferrer"
             class="btn-dark text-decoration-none"
+            v-scrollAnime
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div> -->
-        <!-- <div class="item">
+        </div>
+
+        <div class="item">
           <a
             href="http://ticketliteapp.herokuapp.com/"
             target="_blank"
@@ -193,7 +234,7 @@
               v-scrollAnime
             />
           </a>
-          <p class="btn-light">
+          <p class="btn-light" v-scrollAnime>
             Ticketlite is a ticket management system where users can create and
             manage their tickets. It is built with Laravel and features SMTP,
             Laravel notifications, etc.
@@ -203,19 +244,21 @@
             target="_blank"
             rel="noopener noreferrer"
             class="btn-dark bg-success text-decoration-none"
+            v-scrollAnime
           >
             <i class="fas fa-eye"></i> Demo
           </a>
 
           <a
-            href="http://ticketliteapp.herokuapp.com/"
+            href="https://github.com/davydocsurg/Support-Ticket-System-with-Laravel-6-"
             target="_blank"
             rel="noopener noreferrer"
             class="btn-dark text-decoration-none"
+            v-scrollAnime
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div> -->
+        </div>
 
         <div class="item">
           <a href="" target="_blank" rel="noopener noreferrer">
@@ -225,17 +268,18 @@
               v-scrollAnime
             />
           </a>
-          <p class="btn-light">
+          <p class="btn-light" v-scrollAnime>
             Kreeper is a realtime chat application made with Laravel, VueJs and
             Pusher. It features AJAX Requests, realtime notifications with
-            pusher, theme customization, laravel events, etc.
+            Pusher, theme customization, Laravel events, etc.
           </p>
 
           <a
-            href=""
+            href="https://github.com/davydocsurg/kreeper"
             target="_blank"
             rel="noopener noreferrer"
             class="btn-dark text-decoration-none"
+            v-scrollAnime
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
@@ -255,55 +299,55 @@ export default {
 
   data() {
     return {
-      projects: [
-        {
-          id: 1,
-          name: "CMS",
-          demo: "http://frozen-temple-94354.herokuapp.com/",
-          repo: "https://github.com/davydocsurg/CMS",
-          img: "../../assets/img/project1.png",
-          desc:
-            "CMS is a blog site with a Content Management System, made with Laravel and JavaScript. It features MailChimp, Disqus etc.",
-        },
-        {
-          id: 2,
-          name: "David Chibueze | Software Developer",
-          demo: "https://davydocsurg.github.io/chibueze/",
-          repo: "https://github.com/davydocsurg/chibueze",
-          img: "../../assets/img/project2.png",
-          desc: "Portfolio Website of David Chibueze. Made with VueJs.",
-        },
+      // projects: [
+      //   {
+      //     id: 1,
+      //     name: "CMS",
+      //     demo: "http://frozen-temple-94354.herokuapp.com/",
+      //     repo: "https://github.com/davydocsurg/CMS",
+      //     img: "../../assets/img/project1.png",
+      //     desc:
+      //       "CMS is a blog site with a Content Management System, made with Laravel and JavaScript. It features MailChimp, Disqus etc.",
+      //   },
+      //   {
+      //     id: 2,
+      //     name: "David Chibueze | Software Developer",
+      //     demo: "https://davydocsurg.github.io/chibueze/",
+      //     repo: "https://github.com/davydocsurg/chibueze",
+      //     img: "../../assets/img/project2.png",
+      //     desc: "Portfolio Website of David Chibueze. Made with VueJs.",
+      //   },
 
-        {
-          id: 3,
-          name: "Starter",
-          demo: "http://laravel-vue-starter.herokuapp.com/users",
-          repo: "https://github.com/davydocsurg/laravel-multi-purpose",
-          img: "../../assets/img/project3.png",
-          desc:
-            "Starter is a Content Management System made with Laravel and VueJs. It features API consumption, AJAX Requests, Laravel APIs, etc.",
-        },
+      //   {
+      //     id: 3,
+      //     name: "Starter",
+      //     demo: "http://laravel-vue-starter.herokuapp.com/users",
+      //     repo: "https://github.com/davydocsurg/laravel-multi-purpose",
+      //     img: "../../assets/img/project3.png",
+      //     desc:
+      //       "Starter is a Content Management System made with Laravel and VueJs. It features API consumption, AJAX Requests, Laravel APIs, etc.",
+      //   },
 
-        {
-          id: 4,
-          name: "Ticketlite",
-          demo: "http://ticketliteapp.herokuapp.com/",
-          repo: "https://github.com/davydocsurg/Support-Ticket-System-with-Laravel-6-",
-          img: "../../assets/img/project4.png",
-          desc:
-            "Ticketlite is a ticket management system where users can create and manage their tickets. It is built with Laravel and features SMTP, Laravel notifications, etc.",
-        },
+      //   {
+      //     id: 4,
+      //     name: "Ticketlite",
+      //     demo: "http://ticketliteapp.herokuapp.com/",
+      //     repo: "https://github.com/davydocsurg/Support-Ticket-System-with-Laravel-6-",
+      //     img: "../../assets/img/project4.png",
+      //     desc:
+      //       "Ticketlite is a ticket management system where users can create and manage their tickets. It is built with Laravel and features SMTP, Laravel notifications, etc.",
+      //   },
 
-        // {
-        //   id: 5,
-        //   name: "Kreeper",
-        //   // demo: "http://frozen-temple-94354.herokuapp.com/",
-        //   repo: "https://github.com/davydocsurg/kreeper",
-        //   img: "../../assets/img/project5.png",
-        //   desc:
-        //     "Kreeper is a realtime chat application made with Laravel, VueJs and  Pusher. It features AJAX Requests, realtime notifications with Pusher, theme customization, Laravel events, etc.",
-        // },
-      ],
+      //   {
+      //     id: 5,
+      //     name: "Kreeper",
+      //     // demo: "http://frozen-temple-94354.herokuapp.com/",
+      //     repo: "https://github.com/davydocsurg/kreeper",
+      //     img: "../../assets/img/project5.png",
+      //     desc:
+      //       "Kreeper is a realtime chat application made with Laravel, VueJs and  Pusher. It features AJAX Requests, realtime notifications with Pusher, theme customization, Laravel events, etc.",
+      //   },
+      // ],
     };
   },
 };
