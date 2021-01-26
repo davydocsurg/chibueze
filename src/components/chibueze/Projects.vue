@@ -261,7 +261,7 @@
         </div>
 
         <div class="item">
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/davydocsurg/kreeper" target="_blank" rel="noopener noreferrer">
             <img
               src="../../assets/img/project5.png"
               alt="Kreeper"
