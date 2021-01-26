@@ -217,7 +217,7 @@
           </a>
         </div> -->
 
-        <!-- <div class="item">
+        <div class="item">
           <a href="" target="_blank" rel="noopener noreferrer">
             <img
               src="../../assets/img/project5.png"
@@ -239,7 +239,7 @@
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div> -->
+        </div>
       </div>
     </main>
   </div>
@@ -294,15 +294,15 @@ export default {
             "Ticketlite is a ticket management system where users can create and manage their tickets. It is built with Laravel and features SMTP, Laravel notifications, etc.",
         },
 
-        {
-          id: 5,
-          name: "Kreeper",
-          // demo: "http://frozen-temple-94354.herokuapp.com/",
-          repo: "https://github.com/davydocsurg/kreeper",
-          img: "../../assets/img/project5.png",
-          desc:
-            "Kreeper is a realtime chat application made with Laravel, VueJs and  Pusher. It features AJAX Requests, realtime notifications with Pusher, theme customization, Laravel events, etc.",
-        },
+        // {
+        //   id: 5,
+        //   name: "Kreeper",
+        //   // demo: "http://frozen-temple-94354.herokuapp.com/",
+        //   repo: "https://github.com/davydocsurg/kreeper",
+        //   img: "../../assets/img/project5.png",
+        //   desc:
+        //     "Kreeper is a realtime chat application made with Laravel, VueJs and  Pusher. It features AJAX Requests, realtime notifications with Pusher, theme customization, Laravel events, etc.",
+        // },
       ],
     };
   },
