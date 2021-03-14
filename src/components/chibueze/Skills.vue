@@ -21,6 +21,7 @@
           :key="progress.id"
         >
           <b class="text">{{ progress.name }}</b>
+          <br />
           <div class="progress mb-3">
             <div
               class="progress-bar bg-success"
