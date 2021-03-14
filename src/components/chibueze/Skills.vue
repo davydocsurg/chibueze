@@ -61,7 +61,7 @@
           { id: 6, name: "PHP", width: "82", val: "82", level: 82 },
           {
             id: 7,
-            name: "Vue.Js/VuetifyJs",
+            name: "VueJS/VuetifyJS",
             width: "89",
             val: "89",
             level: 89,

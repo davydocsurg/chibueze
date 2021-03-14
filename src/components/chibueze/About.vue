@@ -13,7 +13,7 @@
         <p class="lh-lg" v-scrollAnime>
           I'm a back/front-end web developer, database developer and an
           enthusiastic entrepreneur with years of experience in the tech
-          industry. I'm based in Nigeria and mostly self-tutored for most of my
+          industry. I'm based in Nigeria and self-tutored for most of my
           knowledge. Having a strong belief in being 100% efficient, I devote my
           best to every laid down goals.
         </p>
@@ -23,6 +23,10 @@
 </template>
 
 <style lang="css" scoped>
+  .lh-lg {
+    font-weight: 400 !important;
+    font-size: 1.2rem !important;
+  }
   .text-bold {
     font-weight: 300;
     font-size: 4.5rem;
