@@ -23,36 +23,36 @@
 </template>
 
 <style lang="css" scoped>
-.text-bold {
-  font-weight: 300;
-  font-size: 4.5rem;
-}
-
-p {
-  line-height: 30px !important;
-  font-size: 15px !important;
-}
-
-@media screen and (max-width: 992px) {
-  .jst-abt {
-    text-align: center !important;
+  .text-bold {
+    font-weight: 300;
+    font-size: 4.5rem;
   }
 
-  .text-bold {
-  font-weight: 300;
-  font-size: 3.5rem;
-}
-}
+  p {
+    line-height: 30px !important;
+    font-size: 15px !important;
+  }
 
-/* animes */
-.before-enter {
-  opacity: 0;
-  transform: translateX(80px);
-  transition: all 2s ease-out;
-}
+  @media screen and (max-width: 992px) {
+    .jst-abt {
+      text-align: center !important;
+    }
 
-.enter {
-  opacity: 1;
-  transform: translateX(0px);
-}
+    .text-bold {
+      font-weight: 300;
+      font-size: 3.5rem;
+    }
+  }
+
+  /* animes */
+  .before-enter {
+    opacity: 0;
+    transform: translateX(80px);
+    transition: all 1.4s ease-out;
+  }
+
+  .enter {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 </style>

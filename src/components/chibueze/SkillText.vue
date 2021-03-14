@@ -12,32 +12,32 @@
 </template>
 
 <style lang="css" scoped>
-.text-bold {
-  font-weight: 300;
-  font-size: 3.5rem !important;
-}
-
-@media screen and (max-width: 992px) {
-  .jst-prof {
-    text-align: center !important;
-  }
-
   .text-bold {
-    font-weight: 400;
-    font-size: 2.7rem !important;
-    text-align: center !important;
+    font-weight: 300;
+    font-size: 3.5rem !important;
   }
-}
 
-/* animes */
-.before-enter {
-  opacity: 0;
-  transform: translateX(100px);
-  transition: all 2s ease-out !important;
-}
+  @media screen and (max-width: 992px) {
+    .jst-prof {
+      text-align: center !important;
+    }
 
-.enter {
-  opacity: 1;
-  transform: translateX(0px);
-}
+    .text-bold {
+      font-weight: 400;
+      font-size: 2.7rem !important;
+      text-align: center !important;
+    }
+  }
+
+  /* animes */
+  .before-enter {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 2s ease-out !important;
+  }
+
+  .enter {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 </style>

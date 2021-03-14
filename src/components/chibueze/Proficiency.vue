@@ -15,7 +15,7 @@
           <p class="lh-lg">
             I design responsive and stunning webpages/SPAs using various UI
             frameworks and libraries such as Bootstrap, Tailwind CSS, and
-            Vue.js/VuetifyJS.
+            VueJS/VuetifyJS.
           </p>
         </div>
         <div class="" v-scrollAnime>
@@ -27,7 +27,7 @@
         </div>
         <div class="" v-scrollAnime>
           <h5 class="text-success">Database Development</h5>
-          <p  class="lh-lg font-monospace">
+          <p class="lh-lg font-monospace">
             I design uniformed relational data models aptly accomplished with
             MySQL/SQL.
           </p>
@@ -39,47 +39,47 @@
 </template>
 
 <style lang="css" scoped>
-.text-bold {
-  font-weight: 300;
-  font-size: 3.5rem !important;
-}
-
-.break {
-  display: none !important;
-}
-
-p {
-  line-height: 30px !important;
-  font-size: 19px !important;
-}
-
-@media screen and (max-width: 992px) {
-  .jst-prof {
-    text-align: center !important;
-  }
-
   .text-bold {
-    font-weight: 400;
-    font-size: 2.5rem !important;
-    text-align: center !important;
+    font-weight: 300;
+    font-size: 3.5rem !important;
   }
-}
 
-@media screen and (max-width: 300px) {
   .break {
-    display: block !important;
+    display: none !important;
   }
-}
 
-/* animes */
-.before-enter {
-  opacity: 0;
-  transform: translateX(-80px);
-  transition: all 2s ease-out;
-}
+  p {
+    line-height: 30px !important;
+    font-size: 19px !important;
+  }
 
-.enter {
-  opacity: 1;
-  transform: translateX(0px);
-}
+  @media screen and (max-width: 992px) {
+    .jst-prof {
+      text-align: center !important;
+    }
+
+    .text-bold {
+      font-weight: 400;
+      font-size: 2.5rem !important;
+      text-align: center !important;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .break {
+      display: block !important;
+    }
+  }
+
+  /* animes */
+  .before-enter {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: all 1.4s ease-out;
+  }
+
+  .enter {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 </style>

@@ -3,12 +3,12 @@
     <footer class="row">
       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" v-scrollAnime>
         ©️ 2021 David Chibueze
-        <br>
-        <br>
+        <br />
+        <br />
       </div>
       <div class="jst" v-scrollAnime>
         <a
-          href="http://github.com/davydocsurg"
+          href="https://github.com/davydocsurg"
           target="_blank"
           rel="noopener noreferrer"
           class="mr-3"
@@ -51,32 +51,31 @@
 </template>
 
 <style lang="css" scoped>
-/* animes */
-.before-enter {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: all 2s ease-out;
-}
-
-.enter {
-  opacity: 1;
-  transform: translateY(0px);
-}
-
-.foot {
-  font-size: 40px !important;
-  color: aliceblue;
-}
-
-.foot:hover {
-  color: #28a745;
-}
-
-@media screen and (max-width: 992px) {
-  .footcont {
-    /* text-align: center !important;
-    justify-items: center !important; */
+  /* animes */
+  .before-enter {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 2s ease-out;
   }
-}
 
+  .enter {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .foot {
+    font-size: 40px !important;
+    color: aliceblue;
+  }
+
+  .foot:hover {
+    color: #28a745;
+  }
+
+  @media screen and (max-width: 992px) {
+    .footcont {
+      /* text-align: center !important;
+    justify-items: center !important; */
+    }
+  }
 </style>
