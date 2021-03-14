@@ -61,6 +61,7 @@
   .lh-lg {
     font-weight: 400 !important;
     font-size: 1.2rem !important;
+    line-height: 1.5rem !important;
   }
   .text-bold {
     font-weight: 300;
