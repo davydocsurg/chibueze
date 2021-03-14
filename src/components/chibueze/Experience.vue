@@ -23,7 +23,7 @@
             <br />
           </div>
           <div class="col-lg-8">
-            <p class="">
+            <p class="lh-lg">
               I currently work as a Freelance Software Developer. I work with
               teams of high skilled developers. I develop backend and database
               infrastructures and devise front-end components on both new and
@@ -45,7 +45,7 @@
           </div>
 
           <div class="col-lg-8">
-            <p class="">
+            <p class="lh-lg">
               <!-- I worked as a Backend Developer - Intern at Innovation Growth Hub.  -->
               I worked in a team of high skilled developers, developed efficient
               solutions, and built first class software.
@@ -58,6 +58,10 @@
 </template>
 
 <style lang="css" scoped>
+  .lh-lg {
+    font-weight: 400 !important;
+    font-size: 1.2rem !important;
+  }
   .text-bold {
     font-weight: 300;
     font-size: 3.5rem !important;

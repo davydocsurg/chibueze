@@ -385,6 +385,10 @@
 </script>
 
 <style lang="css" scoped>
+  p {
+    line-height: 1.5rem !important;
+  }
+
   .projects {
     display: grid;
     grid-gap: 0.7rem;
