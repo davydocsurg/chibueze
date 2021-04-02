@@ -156,7 +156,8 @@
           </a>
           <p class="btn-light" v-scrollAnime>
             CMS is a blog site with a Content Management System, made with
-            Laravel and JavaScript. It features MailChimp, Disqus etc.
+            Laravel <i class="fab fa-laravel"></i> and
+            <i class="fab fa-js-square"></i> JavaScript.
           </p>
           <a
             href="http://frozen-temple-94354.herokuapp.com/"
@@ -193,6 +194,7 @@
           </a>
           <p class="btn-light" v-scrollAnime>
             Portfolio Website of David Chibueze. Made with VueJs
+            <i class="fab fa-vuejs"></i>
           </p>
           <a
             href="https://davydocsurg.github.io/chibueze/"
@@ -201,7 +203,7 @@
             class="btn-dark bg-success text-decoration-none"
             v-scrollAnime
           >
-            <i class="fas fa-eye"></i> Demo
+            <i class="fas fa-eye"></i> Visit Site
           </a>
 
           <a
@@ -228,8 +230,9 @@
             />
           </a>
           <p class="btn-light" v-scrollAnime>
-            Starter is a Content Management System made with Laravel and VueJs.
-            It features API consumption, AJAX Requests, Laravel APIs, etc.
+            Starter is a Content Management System made with Laravel
+            <i class="fab fa-laravel"></i> and VueJs
+            <i class="fab fa-vuejs"></i>.
           </p>
           <a
             href="http://laravel-vue-starter.herokuapp.com/users"
@@ -266,8 +269,8 @@
           </a>
           <p class="btn-light" v-scrollAnime>
             Ticketlite is a ticket management system where users can create and
-            manage their tickets. It is built with Laravel and features SMTP,
-            Laravel notifications, etc.
+            manage their tickets. Made with Laravel
+            <i class="fab fa-laravel"></i>
           </p>
           <a
             href="http://ticketliteapp.herokuapp.com/"
@@ -303,9 +306,10 @@
             />
           </a>
           <p class="btn-light" v-scrollAnime>
-            Kreeper is a realtime chat application made with Laravel, VueJs and
-            Pusher. It features AJAX Requests, realtime notifications with
-            Pusher, theme customization, Laravel events, etc.
+            Kreeper is a realtime chat application made with Laravel
+            <i class="fab fa-laravel"></i>, VueJs
+            <i class="fab fa-vuejs"></i> and Pusher
+            <!-- <i class="fab fa-pusher"></i>. -->
           </p>
 
           <a
