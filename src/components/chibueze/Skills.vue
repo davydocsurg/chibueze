@@ -165,13 +165,13 @@
 </script>
 
 <style lang="css" scoped>
-  #pic {
+  /* #pic {
     background-image: url("../../assets/img/tailwindcss.svg");
     width: 100%;
     background-repeat: no-repeat !important;
     height: 100%;
-    /* display: inline-block; */
-  }
+  } */
+  /* display: inline-block; */
   .skill-icons {
     font-size: 5rem !important;
     text-align: center !important;
