@@ -5,7 +5,7 @@
     </h1>
     <div class="card bg-card col-md-12 col-lg-8 shadow-sm" v-scrollAnime>
       <span class="p-1">
-        A representation of my progress with each skill so far.
+        Skills I've acquired so far.
       </span>
     </div>
   </div>

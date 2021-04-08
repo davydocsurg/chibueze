@@ -2,7 +2,7 @@
   <div class="container footcont" id="footer">
     <footer class="row">
       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" v-scrollAnime>
-        ©️ 2021 David Chibueze
+        ©️ <b id="currentYear"></b> David Chibueze
         <br />
         <br />
       </div>
@@ -49,6 +49,24 @@
     </footer>
   </div>
 </template>
+
+<script>
+  import "./footer";
+
+  export default {
+    data() {
+      return {
+        date_: "",
+      };
+    },
+
+    mounted() {
+      getCurrentYear();
+    },
+
+    methods: {},
+  };
+</script>
 
 <style lang="css" scoped>
   /* animes */

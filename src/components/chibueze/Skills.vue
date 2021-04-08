@@ -1,20 +1,62 @@
 <template>
-  <div class="container jst-skl p-4 mt-4" id="skills">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <SkillText></SkillText>
+  <div class="container jst-skl b-4 mt-4" id="skills">
+    <SkillText class="text-cente"></SkillText>
+    <div class="row ">
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-html5 text-danger skill-icons"></i>
+        <br />
+        HTML5
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-css3 text-primary skill-icons"></i>
+        <br />
+        CSS3
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-js-square text-warning skill-icons"></i>
+        <br />
+        JavaScript
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-php text-info skill-icons"></i>
+        <br />
+        PHP
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-bootstrap text-indigo skill-icons"></i>
+        <br />
+        BOOTSTRAP
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <b class=" text-info" style="font-size: 2rem !important">TailwindCSS</b>
+        <br />
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-vuejs text-success skill-icons"></i>
+        <br />
+        VUEJS
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-laravel text-danger skill-icons"></i>
+        <br />
+        Laravel
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <b class=" text-warning " style="font-size: 2rem !important"
+          >SQL/MySQL</b
+        >
+        <br />
+      </div>
+    </div>
+    <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <div class="mt-4">
-        <!-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> -->
-        <!-- <transition-group
-          @before-enter="beforeEnter"
-          @enter="enter"
-          @after-enter="afterEnter"
-          @enter-cancelled="enterCancelled"
-          @before-leave="beforeLeave"
-          @leave="leave"
-          @after-leave="afterLeave"
-          @leave-cancelled="leaveCancelled"
-          :css="false"
-        > -->
         <div
           class="each-s"
           v-for="progress in progress_data"
@@ -36,10 +78,8 @@
             </div>
           </div>
         </div>
-        <!-- </transition-group> -->
-        <!-- </div> -->
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -125,6 +165,22 @@
 </script>
 
 <style lang="css" scoped>
+  #pic {
+    background-image: url("../../assets/img/tailwindcss.svg");
+    width: 100%;
+    background-repeat: no-repeat !important;
+    height: 100%;
+    /* display: inline-block; */
+  }
+  .skill-icons {
+    font-size: 5rem !important;
+    text-align: center !important;
+  }
+
+  .text-indigo {
+    color: blueviolet !important;
+  }
+
   .text-bold {
     font-weight: 300;
     font-size: 4.5rem;
@@ -142,57 +198,57 @@
   /* animes */
   .before-enter {
     opacity: 1;
-    transform: translateX(-100px);
+    transform: translateY(100px);
     transition: all 1.3s ease-out !important;
   }
 
   .enter {
     opacity: 1 !important;
-    transform: translateX(0px) !important;
+    transform: translateY(0px) !important;
   }
 
   /* .slide-enter {
-  opacity: 0;
-}
-
-.slide-enter-active {
-  animation: slide-in 3s ease-out forwards;
-  transition: opacity 1s;
-}
-
-.slide-leave {
-}
-
-.slide-leave-active {
-  animation: slide-out 1s ease-out forwards;
-  transition: opacity 1s;
-  opacity: 0;
-  position: absolute;
-}
-
-.slide-move {
-  transition: transform 1s;
-}
-
-@keyframes slide-in {
-  from {
-    transform: translateY(20rem);
+    opacity: 0;
   }
 
-  to {
-    transform: translateY(0);
-  }
-}
-
-@keyframes slide-out {
-  to {
-    transform: translateY(20px);
+  .slide-enter-active {
+    animation: slide-in 3s ease-out forwards;
+    transition: opacity 1s;
   }
 
-  from {
-    transform: translateY(0);
+  .slide-leave {
   }
-} */
+
+  .slide-leave-active {
+    animation: slide-out 1s ease-out forwards;
+    transition: opacity 1s;
+    opacity: 0;
+    position: absolute;
+  }
+
+  .slide-move {
+    transition: transform 1s;
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateY(20rem);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-out {
+    to {
+      transform: translateY(20px);
+    }
+
+    from {
+      transform: translateY(0);
+    }
+  } */
 
   @media screen and (max-width: 992px) {
     .jst-skl {

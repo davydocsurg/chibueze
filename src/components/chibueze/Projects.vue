@@ -1,6 +1,315 @@
 <template>
   <div class="container jst-pro" id="projects">
     <ProText class="mb-5"></ProText>
+    <div class="row">
+      <div
+        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        v-scrollAnime
+      >
+        <div class="card-img-top">
+          <a
+            href="https://onevent.com.ng/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/img/project1.png"
+              alt="Onevent"
+            />
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">ONEVENT</h5>
+          <p class="card-text">
+            Onevent is a creative event agency that is passionate about creating
+            beautiful, unique, and organized experiences for a variety of
+            clients throughout the world.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">
+              <a
+                href="https://onevent.com.ng/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-success text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fas fa-eye"></i> Visit Site
+              </a></small
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        v-scrollAnime
+      >
+        <div class="card-img-top">
+          <a
+            href="http://frozen-temple-94354.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/img/project2.png"
+              alt="CMS"
+            />
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">CMS <sup>-</sup></h5>
+          <p class="card-text">
+            CMS <sup>-</sup> is a blog site with a Content Management System
+          </p>
+          <p class="card-text">
+            Technologies used: <i class="fab fa-bootstrap text-indigo"></i>,
+            <i class="fab fa-js-square text-warning"></i>,
+            <i class="fab fa-laravel text-danger"></i>,
+            <b class="text-warning">MySQL</b>
+          </p>
+
+          <div class="card-text row">
+            <small class="text-muted float-left">
+              <a
+                href="https://github.com/davydocsurg/CMS"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-dark-pro text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fab fa-github"> Repository</i>
+              </a></small
+            >
+
+            <small class="text-muted float-right">
+              <a
+                href="https://onevent.com.ng/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-success text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fas fa-eye"></i> Visit Site
+              </a></small
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        v-scrollAnime
+      >
+        <div class="card-img-top">
+          <a
+            href="https://davydocsurg.github.io/chibueze/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/img/project3.png"
+              alt="David Chibueze | Software Developer"
+            />
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Portfolio Website of David Chibueze</h5>
+          <p class="card-text">
+            This is the portfolio website of David Chibueze.
+          </p>
+
+          <p class="card-text">
+            Technologies used: <i class="fab fa-bootstrap text-indigo"></i>,
+            <i class="fab fa-vuejs text-success"></i>
+          </p>
+          <div class="card-text row">
+            <small class="text-muted float-left">
+              <a
+                href="https://github.com/davydocsurg/chibueze"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-dark-pro text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fab fa-github"> Repository</i>
+              </a></small
+            >
+
+            <small class="text-muted float-right">
+              <a
+                href="https://davydocsurg.github.io/chibueze/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-success text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fas fa-eye"></i> Visit Site
+              </a></small
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        v-scrollAnime
+      >
+        <div class="card-img-top">
+          <a
+            href="http://laravel-vue-starter.herokuapp.com/users"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/img/project4.png"
+              alt="Laravel-Vue-Starter"
+            />
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Laravel-Vue-Starter</h5>
+          <p class="card-text">
+            Laravel-Vue-Starter is a content management system with Laravel Rest
+            APIs.
+          </p>
+
+          <p class="card-text">
+            Technologies used: <i class="fab fa-bootstrap text-indigo"></i>,
+            <i class="fab fa-vuejs text-success"></i>,
+            <i class="fab fa-laravel text-danger"></i>,
+            <b class="text-warning">MySQL</b>
+          </p>
+          <div class="card-text row">
+            <small class="text-muted float-left">
+              <a
+                href="https://github.com/davydocsurg/laravel-multi-purpose"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-dark-pro text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fab fa-github"> Repository</i>
+              </a></small
+            >
+
+            <small class="text-muted float-right">
+              <a
+                href="http://laravel-vue-starter.herokuapp.com/users"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-success text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fas fa-eye"></i> Visit Site
+              </a></small
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        v-scrollAnime
+      >
+        <div class="card-img-top">
+          <a
+            href="http://ticketliteapp.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/img/project5.png"
+              alt="Ticketlite"
+            />
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Ticketlite</h5>
+          <p class="card-text">
+            Ticketlite is a ticket management system where users can create and
+            manage their tickets.
+          </p>
+
+          <p class="card-text">
+            Technologies used: <i class="fab fa-bootstrap text-indigo"></i>,
+            <i class="fab fa-laravel text-danger"></i>,
+            <b class="text-warning">MySQL</b>
+          </p>
+          <div class="card-text row">
+            <small class="text-muted float-left">
+              <a
+                href="https://github.com/davydocsurg/Support-Ticket-System-with-Laravel-6-"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-dark-pro text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fab fa-github"> Repository</i>
+              </a></small
+            >
+
+            <small class="text-muted float-right">
+              <a
+                href="http://ticketliteapp.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-success text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fas fa-eye"></i> Visit Site
+              </a></small
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        v-scrollAnime
+      >
+        <div class="card-img-top">
+          <a
+            href="https://github.com/davydocsurg/kreeper"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/img/project6.png"
+              alt="Ticketlite"
+            />
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Kreeper</h5>
+          <p class="card-text">
+            Kreeper is a realtime chat application
+          </p>
+
+          <p class="card-text">
+            Technologies used: <i class="fab fa-bootstrap text-indigo"></i>,
+            <i class="fab fa-vuejs text-success"></i>,
+            <i class="fab fa-laravel text-danger"></i>,
+            <b class="text-warning">MySQL</b>
+          </p>
+          <div class="card-text row">
+            <small class="text-muted float-left">
+              <a
+                href="https://github.com/davydocsurg/kreeper"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-dark-pro text-decoration-none"
+                v-scrollAnime
+              >
+                <i class="fab fa-github"> Repository</i>
+              </a></small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
     <!-- <div class="mt-4">
       <div class="container projects">
@@ -83,9 +392,9 @@
       </div>
     </div> -->
 
+    <!-- <div class="item" v-for="project in projects" :key="project.id">
     <main id="">
       <div class="projects">
-        <!-- <div class="item" v-for="project in projects" :key="project.id">
           <a :href="project.demo" target="_blank" rel="noopener noreferrer">
             <img :src="project.img" :alt="project.name" v-scrollAnime />
           </a>
@@ -112,7 +421,7 @@
           </a>
         </div> -->
 
-        <div class="item">
+    <!-- <div class="item">
           <a
             href="https://onevent.com.ng/"
             target="_blank"
@@ -135,18 +444,10 @@
             <i class="fas fa-eye"></i> Visit Site
           </a>
 
-          <!-- <a
-            href="https://github.com/davydocsurg/CMS"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn-dark text-decoration-none"
-            v-scrollAnime
-          >
-            <i class="fab fa-github"></i> Github Repo
-          </a> -->
-        </div>
 
-        <div class="item">
+        </div> -->
+
+    <!-- <div class="item">
           <a
             href="http://frozen-temple-94354.herokuapp.com/"
             target="_blank"
@@ -178,9 +479,9 @@
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div>
+        </div> -->
 
-        <div class="item">
+    <!-- <div class="item">
           <a
             href="https://davydocsurg.github.io/chibueze/"
             target="_blank"
@@ -215,9 +516,9 @@
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div>
+        </div> -->
 
-        <div class="item">
+    <!-- <div class="item">
           <a
             href="http://laravel-vue-starter.herokuapp.com/users"
             target="_blank"
@@ -253,9 +554,9 @@
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div>
+        </div> -->
 
-        <div class="item">
+    <!-- <div class="item">
           <a
             href="http://ticketliteapp.herokuapp.com/"
             target="_blank"
@@ -291,9 +592,9 @@
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div>
+        </div> -->
 
-        <div class="item">
+    <!-- <div class="item">
           <a
             href="https://github.com/davydocsurg/kreeper"
             target="_blank"
@@ -309,7 +610,6 @@
             Kreeper is a realtime chat application made with Laravel
             <i class="fab fa-laravel"></i>, VueJs
             <i class="fab fa-vuejs"></i> and Pusher
-            <!-- <i class="fab fa-pusher"></i>. -->
           </p>
 
           <a
@@ -321,10 +621,10 @@
           >
             <i class="fab fa-github"></i> Github Repo
           </a>
-        </div>
-      </div>
-    </main>
+        </div> -->
   </div>
+  <!-- </main> -->
+  <!-- </div> -->
 </template>
 
 <script>
@@ -389,8 +689,16 @@
 </script>
 
 <style lang="css" scoped>
+  .text-indigo {
+    color: blueviolet !important;
+  }
+
   p {
     line-height: 1.5rem !important;
+  }
+
+  .bg-dark-pro {
+    background: #0d1117;
   }
 
   .projects {
@@ -507,13 +815,15 @@
   /* animes */
   .before-enter {
     opacity: 0;
-    transform: scale(0.5) rotateZ(0deg);
+    /* transform: scale(0.5) rotateZ(0deg); */
+    transform: translateY(120px);
     transition: all 1.4s ease-out !important;
   }
 
   .enter {
     opacity: 1;
-    transform: scale(1) rotateZ(0deg);
+    transform: translateY(0px);
+    /* transform: scale(1) rotateZ(0deg); */
   }
 
   /* .before-enter {
