@@ -9,10 +9,11 @@
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
-        <i class="fab fa-css3 text-primary skill-icons"></i>
+        <i class="fab fa-css3-alt text-primary skill-icons"></i>
         <br />
-        CSS3
+        CSS 3
       </div>
+
       <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
         <i class="fab fa-js-square text-warning skill-icons"></i>
         <br />
@@ -22,13 +23,19 @@
       <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
         <i class="fab fa-php text-info skill-icons"></i>
         <br />
-        PHP
+        <!-- PHP -->
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
         <i class="fab fa-bootstrap text-indigo skill-icons"></i>
         <br />
         BOOTSTRAP
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>
+        <i class="fab fa-sass text-danger skill-icons"></i>
+        <br />
+        SCSS
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 text-cente mt-4" v-scrollAnime>

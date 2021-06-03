@@ -1,12 +1,29 @@
 <template>
   <div class="container jst-pro" id="projects">
+    <!-- <div class="laptop">
+      <div class="content">
+        <iframe
+          src="http://localhost:8080/"
+          style="width:100%;border:none;height:100%"
+        />
+      </div>
+    </div> -->
     <ProText class="mb-5"></ProText>
+
     <div class="row">
       <div
-        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        class="card col-lg-6 col-md-6 col-sm-12 mt-4 bg-dark-pro"
         v-scrollAnime
       >
         <div class="card-img-top">
+          <!-- <div class="smartphone">
+            <div class="content">
+              <iframe
+                src="../../assets/img/project1.png"
+                style="width:100%;border:none;height:100%"
+              />
+            </div>
+          </div> -->
           <a
             href="https://onevent.com.ng/"
             target="_blank"
@@ -32,17 +49,69 @@
                 href="https://onevent.com.ng/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="btn-dark bg-success text-decoration-none"
+                class="btn-dark bg-success text-decoration-none text-center"
                 v-scrollAnime
               >
-                <i class="fas fa-eye"></i> Visit Site
-              </a></small
-            >
+                Visit Site <i class="fas fa-external-link-alt"></i>
+              </a>
+            </small>
           </p>
         </div>
       </div>
+
       <div
-        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        class="card col-lg-6 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        v-scrollAnime
+      >
+        <div class="card-img-top">
+          <a
+            href="https://tribrozglobal.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="../../assets/img/project7x.png"
+              alt="CMS"
+            />
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">TRIBROZ</h5>
+          <p class="card-text">
+            TRIBROZ is a a team of highly qualified Engineers and Allied
+            Professional from front desk to Field.
+          </p>
+          <p class="card-text">
+            Technologies used: <br />
+            Front-End
+            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fab fa-vuejs text-success"></i>,
+            <i class="fab fa-bootstrap text-indigo"></i>
+            <br />
+            Back-End
+            <i class="fas fa-long-arrow-alt-right"></i>
+            <i class="fab fa-laravel text-danger"></i>,
+            <b class="text-warning">MySQL</b>
+          </p>
+
+          <div class="card-text">
+            <small class="text-muted ">
+              <a
+                href="https://tribrozglobal.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-dark bg-success text-decoration-none text-center"
+                v-scrollAnime
+              >
+                Visit Site <i class="fas fa-external-link-alt"></i> </a
+            ></small>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card col-lg-6 col-md-6 col-sm-12 mt-4 bg-dark-pro"
         v-scrollAnime
       >
         <div class="card-img-top">
@@ -91,14 +160,14 @@
                 class="btn-dark bg-success text-decoration-none"
                 v-scrollAnime
               >
-                <i class="fas fa-eye"></i> Visit Site
-              </a></small
-            >
+                Visit Site <i class="fas fa-external-link-alt"></i> </a
+            ></small>
           </div>
         </div>
       </div>
+
       <div
-        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        class="card col-lg-6 col-md-6 col-sm-12 mt-4 bg-dark-pro"
         v-scrollAnime
       >
         <div class="card-img-top">
@@ -145,14 +214,13 @@
                 class="btn-dark bg-success text-decoration-none"
                 v-scrollAnime
               >
-                <i class="fas fa-eye"></i> Visit Site
-              </a></small
-            >
+                Visit Site <i class="fas fa-external-link-alt"></i> </a
+            ></small>
           </div>
         </div>
       </div>
       <div
-        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        class="card col-lg-6 col-md-6 col-sm-12 mt-4 bg-dark-pro"
         v-scrollAnime
       >
         <div class="card-img-top">
@@ -202,14 +270,13 @@
                 class="btn-dark bg-success text-decoration-none"
                 v-scrollAnime
               >
-                <i class="fas fa-eye"></i> Visit Site
-              </a></small
-            >
+                Visit Site <i class="fas fa-external-link-alt"></i> </a
+            ></small>
           </div>
         </div>
       </div>
       <div
-        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        class="card col-lg-6 col-md-6 col-sm-12 mt-4 bg-dark-pro"
         v-scrollAnime
       >
         <div class="card-img-top">
@@ -258,14 +325,13 @@
                 class="btn-dark bg-success text-decoration-none"
                 v-scrollAnime
               >
-                <i class="fas fa-eye"></i> Visit Site
-              </a></small
-            >
+                Visit Site <i class="fas fa-external-link-alt"></i> </a
+            ></small>
           </div>
         </div>
       </div>
       <div
-        class="card col-lg-4 col-md-6 col-sm-12 mt-4 bg-dark-pro"
+        class="card col-lg-6 col-md-6 col-sm-12 mt-4 bg-dark-pro"
         v-scrollAnime
       >
         <div class="card-img-top">
@@ -409,8 +475,8 @@
             v-if="project.demo"
             v-scrollAnime
           >
-            <i class="fas fa-eye"></i> Demo
-          </a>
+             Demo
+      <i class="fas fa-external-link-alt"></i>     </a>
 
           <a
             :href="project.repo"
@@ -441,7 +507,7 @@
             class="btn-dark bg-success text-decoration-none"
             v-scrollAnime
           >
-            <i class="fas fa-eye"></i> Visit Site
+             Visit Site <i class="fas fa-external-link-alt"></i>
           </a>
 
 
@@ -467,8 +533,8 @@
             class="btn-dark bg-success text-decoration-none"
             v-scrollAnime
           >
-            <i class="fas fa-eye"></i> Demo
-          </a>
+             Demo
+      <i class="fas fa-external-link-alt"></i>     </a>
 
           <a
             href="https://github.com/davydocsurg/CMS"
@@ -504,7 +570,7 @@
             class="btn-dark bg-success text-decoration-none"
             v-scrollAnime
           >
-            <i class="fas fa-eye"></i> Visit Site
+             Visit Site <i class="fas fa-external-link-alt"></i>
           </a>
 
           <a
@@ -542,8 +608,8 @@
             class="btn-dark text-decoration-none bg-success"
             v-scrollAnime
           >
-            <i class="fas fa-eye"></i> Demo
-          </a>
+             Demo
+      <i class="fas fa-external-link-alt"></i>     </a>
 
           <a
             href="https://github.com/davydocsurg/laravel-multi-purpose"
@@ -580,8 +646,8 @@
             class="btn-dark bg-success text-decoration-none"
             v-scrollAnime
           >
-            <i class="fas fa-eye"></i> Demo
-          </a>
+             Demo
+      <i class="fas fa-external-link-alt"></i>     </a>
 
           <a
             href="https://github.com/davydocsurg/Support-Ticket-System-with-Laravel-6-"
@@ -689,6 +755,109 @@
 </script>
 
 <style lang="css" scoped>
+  /* The laptop with borders */
+  .laptop {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(0.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+    transform: scale(0.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+    left: 50%;
+    position: relative;
+    width: 1366px;
+    height: 800px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    border-width: 24px 24px 80px;
+    background-color: black;
+  }
+
+  /* The keyboard of the laptop */
+  .laptop:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1600px;
+    height: 60px;
+    margin: 80px 0 0 -110px;
+    background: black;
+    border-radius: 6px;
+  }
+
+  /* The top of the keyboard */
+  .laptop:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    bottom: -110px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    background: #f1f1f1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+  }
+
+  /* The screen (or content) of the device */
+  .laptop .content {
+    width: 1366px;
+    height: 800px;
+    overflow: hidden;
+    border: none;
+  }
+
+  /* ***** */
+  /* The device with borders */
+  .smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+  }
+
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+  }
+
+  /* The screen (or content) of the device */
+  .smartphone .content {
+    width: 360px;
+    height: 640px;
+    background: white;
+  }
+
+  /* **************************************************************************** */
   .text-indigo {
     color: blueviolet !important;
   }
